@@ -21,7 +21,8 @@
   },
   "scripts": {
     "lint:invalid": "eslint -c index.js tsconfig.invalid.json",
-    "lint:valid": "eslint -c index.js tsconfig.valid.json"
+    "lint:valid": "eslint -c index.js tsconfig.valid.json",
+    "version": "standard-version"
   },
   "dependencies": {
     "eslint-plugin-jsonc": "2.9.0"
@@ -29,7 +30,8 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
     "eslint": "8.42.0",
-    "prettier": "2.8.8"
+    "prettier": "2.8.8",
+    "standard-version": "9.5.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
