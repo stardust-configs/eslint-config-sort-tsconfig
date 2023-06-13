@@ -24,6 +24,7 @@ module.exports = {
           {
             pathPattern: '^$',
             order: [
+              '$schema',
               'extends',
               'compilerOptions',
               'watchOptions',
