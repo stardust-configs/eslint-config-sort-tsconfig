@@ -35,7 +35,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
-    "typesctipt": "*"
+    "typescript": "*"
   },
   "packageManager": "pnpm@8.6.2"
 }
