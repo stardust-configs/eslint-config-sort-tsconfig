@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-sort-tsconfig",
+  "version": "0.1.0",
+  "description": "Sort your tsconfig.json based on the TSConfig Reference",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typesctipt",
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/stardust-configs/eslint-config-sort-tsconfig#readme",
+  "bugs": "https://github.com/stardust-configs/eslint-config-sort-tsconfig/issues",
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stardust-configs/eslint-config-sort-tsconfig.git"
+  },
+  "scripts": {
+    "lint:invalid": "eslint -c index.js tsconfig.invalid.json",
+    "lint:valid": "eslint -c index.js tsconfig.valid.json"
+  },
+  "dependencies": {
+    "eslint-plugin-jsonc": "2.9.0"
+  },
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "0.1.1",
+    "eslint": "8.42.0",
+    "prettier": "2.8.8"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typesctipt": "*"
+  },
+  "packageManager": "pnpm@8.6.2"
+}
