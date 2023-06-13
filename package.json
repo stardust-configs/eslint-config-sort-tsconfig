@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sort-tsconfig",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Sort your tsconfig.json based on the TSConfig Reference",
   "keywords": [
     "eslint",
