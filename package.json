@@ -22,7 +22,9 @@
   "scripts": {
     "lint:invalid": "eslint -c index.js tsconfig.invalid.json",
     "lint:valid": "eslint -c index.js tsconfig.valid.json",
-    "version": "standard-version"
+    "version:major": "standard-version -r major",
+    "version:minor": "standard-version -r minor",
+    "version:patch": "standard-version -r patch"
   },
   "dependencies": {
     "eslint-plugin-jsonc": "2.9.0"
